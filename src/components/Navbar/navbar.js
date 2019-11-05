@@ -27,19 +27,19 @@ const MainNavbar = props => {
               <NavLink href="/components/">About</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="/components/">Teams</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="/components/">Events</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/components/">Repairs</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/components/">Officers</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/components/">Advisors</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Repairs</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Teams</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

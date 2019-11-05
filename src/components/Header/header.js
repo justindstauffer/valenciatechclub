@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "reactstrap";
-import bgimage from "../images/bg-technology.jpg";
+import bgimage from "../../images/bg-technology.jpg";
 
 const Example = props => {
   return (
