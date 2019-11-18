@@ -14,7 +14,7 @@ const about = () => {
             padding: '1rem'
         }}>
           The Tech Club is where a variety of technology-focused
-          teams at Valencia College can meet and collaborate on projects,
+          teams at Valencia College. We meet and collaborate on projects,
           tutoring, and entertainment. We regularly host events with industry
           professionals, repair computer equipment, design and develop projects,
           and help with coursework. Though our focus is often on programming,

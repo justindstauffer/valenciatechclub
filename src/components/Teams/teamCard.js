@@ -15,7 +15,8 @@ const Example = props => {
       <Card
         style={{
           maxWidth: "450px",
-          maxHeight: '400px'
+          maxHeight: '400px',
+          marginBottom: '16px'
         }}
       >
         <CardImg top width="300px" src={props.image} alt="Card image cap" style={{maxHeight: '200px', backgroundSize: 'cover'}} />
