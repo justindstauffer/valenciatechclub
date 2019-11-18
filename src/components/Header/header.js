@@ -11,7 +11,7 @@ const Example = props => {
         backgroundSize: "cover",
         color: "white",
         maxHeight: "750px",
-        padding: "11rem 0"
+        padding: "11rem 1rem"
       }}
     >
       <div>
