@@ -8,9 +8,10 @@ const about = () => {
           color: 'white'
       }}>
         <h1 className="display-4 font-weight-bold">What we do</h1>
-        <p className='lead' style={{
+        <p style={{
             maxWidth: '900px',
-            margin: '0 auto'
+            margin: '0 auto',
+            padding: '1rem'
         }}>
           The Tech Club is where a variety of technology-focused
           teams at Valencia College can meet and collaborate on projects,

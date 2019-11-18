@@ -10,7 +10,7 @@ const Example = props => {
         backgroundImage: `url(${bgimage})`,
         backgroundSize: "cover",
         color: "white",
-        maxHeight: "900px",
+        maxHeight: "750px",
         padding: "11rem 0"
       }}
     >
