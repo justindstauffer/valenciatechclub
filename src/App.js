@@ -5,6 +5,8 @@ import Header from "./components/Header/header";
 import About from "./components/About/about";
 import Teams from "./components/Teams/teams";
 import Officers from './components/Officers/officers'
+import Advisors from './components/Advisors/advisors'
+import Footer from './components/Footer/footer'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <About />
       <Teams />
       <Officers />
+      <Advisors />
+      <Footer />
     </div>
   );
 }

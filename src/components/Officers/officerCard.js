@@ -2,7 +2,6 @@ import React from "react";
 import {
   Card,
   CardImg,
-  CardText,
   CardBody,
   CardTitle,
   CardSubtitle,
@@ -16,7 +15,8 @@ const Example = props => {
         style={{
           maxWidth: "450px",
           maxHeight: "450px",
-          boxShadow: "0px 0px 0px 5px #04a3fe"
+          boxShadow: "0px 0px 0px 5px #04a3fe",
+          marginBottom: "2rem"
         }}
       >
         <CardImg

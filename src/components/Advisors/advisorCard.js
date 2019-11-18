@@ -2,7 +2,6 @@ import React from "react";
 import {
   Card,
   CardImg,
-  CardText,
   CardBody,
   CardTitle,
   CardSubtitle,
@@ -14,26 +13,30 @@ const Example = props => {
     <div>
       <Card
         style={{
-          maxWidth: "450px",
-          maxHeight: "400px",
+          maxWidth: "350px",
           boxShadow: "0px 0px 0px 5px #343a40",
-          border: "1px solid #343a40",
+          border: '1px solid #343a40',
           marginBottom: "2rem"
         }}
       >
         <CardImg
           top
-          width="300px"
           src={props.image}
           alt="Card image cap"
-          style={{ maxHeight: "200px", backgroundSize: "cover" }}
+          style={{
+            height: "300px",
+            backgroundSize: "cover",
+            width: "300px"
+          }}
         />
         <CardBody>
           <CardTitle className="font-weight-bold">
-            <h2>{props.title}</h2>
+            <h3>{props.title}</h3>
           </CardTitle>
-          <CardSubtitle>{props.subtitle}</CardSubtitle>
-          <CardText>{props.content}</CardText>
+          <CardSubtitle>
+            <h5>{props.subtitle}</h5>
+          </CardSubtitle>
+
           <Button color="danger">More Info</Button>
         </CardBody>
       </Card>

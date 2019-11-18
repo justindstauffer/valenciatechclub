@@ -15,11 +15,11 @@ const Officers = () => {
     { name: "Justin", picture: Justin, role: "Game Dev Team Lead" }
   ];
   return (
-    <div className='bg-dark'>
+    <div className="bg-dark" style={{ padding: "1rem" }}>
       <h1
         className="display-4 font-weight-bold text-light"
         style={{
-          paddingTop: "1rem"
+          padding: "1rem"
         }}
       >
         Officers
@@ -31,11 +31,18 @@ const Officers = () => {
           flexWrap: "wrap",
           justifyContent: "space-around",
           alignItems: "center",
-          padding: '1rem 0'
+          paddingTop: "1rem"
         }}
       >
-        {Officerdata.map(officer => {
-          return <OfficerCard image={officer.picture} title={officer.name} subtitle={officer.role} />;
+        {Officerdata.map((officer, index) => {
+          return (
+            <OfficerCard
+              image={officer.picture}
+              title={officer.name}
+              subtitle={officer.role}
+              key={index}
+            />
+          );
         })}
       </div>
     </div>

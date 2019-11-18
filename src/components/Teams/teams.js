@@ -1,15 +1,15 @@
 import React from 'react'
 import TeamCard from "./teamCard"
-import WebDevImage from '../../images/card-webdev.jpg'
+import WebDevImage from '../../images/bg-1010.jpg'
 import CyberSecurityImage from '../../images/card-cybersecurity.jpg'
 import EmbeddedImage from '../../images/card-embedded.jpg'
 import UnityImage from '../../images/bg-blocks.jpg'
 
 const teams = () => {
     return (
-      <div>
+      <div style={{padding: '1rem'}}>
           <h1 className='display-4 font-weight-bold text-dark' style={{
-              paddingTop: '1rem'
+            padding: '1rem'
           }}>Teams</h1>
         <div
           style={{
@@ -18,7 +18,7 @@ const teams = () => {
             flexWrap: "wrap",
             justifyContent: "space-around",
             alignItems: "center",
-            padding: "1rem 0"
+            paddingTop: '1rem'
           }}
           className='text-dark'
         >
