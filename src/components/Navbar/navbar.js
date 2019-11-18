@@ -16,30 +16,47 @@ const MainNavbar = props => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md" fixed="top">
+      <Navbar id='nav' color="dark" dark expand="md" fixed="top">
         <NavbarBrand className="text-danger font-weight-bold" href="/">
           Valencia Tech Club
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className="ml-auto flexed" navbar>
             <NavItem>
-              <NavLink href="/components/">About</NavLink>
+              <NavLink className="text-danger" href="#top">
+                Home
+              </NavLink>
             </NavItem>
+            <NavItem className='navspace'>|</NavItem>
             <NavItem>
-              <NavLink href="/components/">Teams</NavLink>
+              <NavLink className="text-danger" href="#teams">
+                Teams
+              </NavLink>
             </NavItem>
+            <NavItem className="navspace">|</NavItem>
             <NavItem>
-              <NavLink href="/components/">Events</NavLink>
+              <NavLink className="text-danger" href="#officers">
+                Officers
+              </NavLink>
             </NavItem>
+            <NavItem className="navspace">|</NavItem>
             <NavItem>
-              <NavLink href="/components/">Repairs</NavLink>
+              <NavLink className="text-danger" href="#advisors">
+                Advisors
+              </NavLink>
             </NavItem>
+            <NavItem className="navspace">|</NavItem>
             <NavItem>
-              <NavLink href="/components/">Officers</NavLink>
+              <NavLink className="text-danger" href="/components/">
+                Events
+              </NavLink>
             </NavItem>
+            <NavItem className="navspace">|</NavItem>
             <NavItem>
-              <NavLink href="/components/">Advisors</NavLink>
+              <NavLink className="text-danger" href="/components/">
+                Repairs
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>

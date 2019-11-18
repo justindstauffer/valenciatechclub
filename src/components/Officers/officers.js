@@ -15,7 +15,7 @@ const Officers = () => {
     { name: "Justin", picture: Justin, role: "Game Dev Team Lead" }
   ];
   return (
-    <div className="bg-dark" style={{ padding: "1rem" }}>
+    <div id='officers' className="bg-dark" style={{ padding: "1rem" }}>
       <h1
         className="display-4 font-weight-bold text-light"
         style={{

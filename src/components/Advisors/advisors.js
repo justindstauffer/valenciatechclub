@@ -12,6 +12,7 @@ const Advisors = () => {
   ];
   return (
     <div
+    id='advisors'
       style={{
         padding: "1rem"
       }}

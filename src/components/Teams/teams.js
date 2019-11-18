@@ -7,7 +7,7 @@ import UnityImage from '../../images/bg-blocks.jpg'
 
 const teams = () => {
     return (
-      <div style={{padding: '1rem'}}>
+      <div id='teams' style={{padding: '1rem'}}>
           <h1 className='display-4 font-weight-bold text-dark' style={{
             padding: '1rem'
           }}>Teams</h1>
