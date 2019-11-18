@@ -10,7 +10,7 @@ const teams = () => {
       <div>
           <h1 className='display-4 font-weight-bold text-dark' style={{
               paddingTop: '1rem'
-          }}>Our teams</h1>
+          }}>Teams</h1>
         <div
           style={{
             display: "flex",
@@ -38,8 +38,8 @@ const teams = () => {
             image={WebDevImage}
           />
           <TeamCard
-            title="Cyber Security"
-            content="From web application penetration testing to RFID swipping, we are learning it all."
+            title="Computer Repair"
+            content="Our dedicated team is capable of fixing broken screens, keyboards, viruses, and much more. "
             image={CyberSecurityImage}
           />
         </div>
