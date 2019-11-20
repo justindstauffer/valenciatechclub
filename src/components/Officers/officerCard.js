@@ -16,7 +16,7 @@ const Example = props => {
           maxWidth: "450px",
           maxHeight: "450px",
           boxShadow: "0px 0px 0px 5px #04a3fe",
-          marginBottom: "2rem"
+          margin: "2rem"
         }}
       >
         <CardImg
