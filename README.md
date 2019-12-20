@@ -1,5 +1,4 @@
 # Valencia Tech Club Website
-This website is created with "Create-React-App". Currently it is a static site that displays the current club information, officers and advisors.
 
 Later this website will be built into an application that allows for club members to log in and manage an account. There will be blog space as well as a "Karma" point system for tracking interactivity with the club and its events. (This is the plan at least)
 ---------------------------------------------------------------------------
