@@ -29,6 +29,8 @@ const about = () => {
           coursework. Though our focus is often on programming, networking, or
           general IT, we welcome anyone interested from any field of study.
         </p>
+        <h3>Join us on Discord</h3>
+        <h4 className="text-danger">https://discord.gg/vcCJqH9</h4>
       </div>
     );
 }
